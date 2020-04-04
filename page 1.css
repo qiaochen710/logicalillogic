@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+header {
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-size: 6em;
+	font-weight: normal;
+	position: relative;
+	margin-left: 14%;
+	margin-top: 270px;
+}
+
+h1 {
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-size: 1em;
+	font-weight: normal;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 14%;
+}
+
+#kern {
+  font-kerning: normal;
+}
+
+.rotated{
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	width: 40px;
+	height: 40px;
+	border-top: 3px solid #909090;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	border-right: 3px solid #909090;
+	transform: rotateZ(45deg);
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1 {
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-size: 3em;
+	font-weight: normal;
+	position: absolute;
+	margin-left: 307.111px;
+	margin-right: 262px;
+	margin-top: 141.714px;
+}
+
+p{
+	
+	font-family: 'PingFang SC Regular';
+	font-weight: normal;
+	font-size: 2em;
+	margin-left: 410px;
+	margin-right: 360px;
+	margin-top: 235px;
+}
+
+h2{
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-weight: normal;
+	font-size: 1.2em;
+	position: fixed;
+	left: 50px;
+	top: 36px;
+	
+	
+}
+
+h3{
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-weight: normal;
+	font-size: 1.2em;
+	position: fixed;
+	left: 50px;
+	bottom: 36px;
+	
+}
+#kern {
+  font-kerning: normal;
+}
+
+.rotated{
+	position: absolute;
+	top: 40%;
+	right: 50px;
+	width: 40px;
+	height: 40px;
+	border-top: 3px solid #909090;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	border-right: 3px solid #909090;
+	transform: rotateZ(45deg);
+}
+.rotated:hover{
+	border-top: 3px solid black;
+	border-right:3px solid black;
+	transition-duration: 0.25s;
+}
+.rotated1{
+	position: absolute;
+	top: 40%;
+	left: 50px;
+	width: 40px;
+	height: 40px;
+	border-top: 3px solid #909090;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	border-right: 3px solid #909090;
+	transform: rotateZ(-135deg);
+}
+.rotated1:hover{
+	border-top: 3px solid black;
+	border-right:3px solid black;
+	transition-duration: 0.25s;
+}
+.pointer {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform:translate(-50%, -50%);
+  width:300px;
+  height:300px;
+    background-image: url("web/Untitled-3.png");
+	background-attachment: fixed;
+	background-position:230px 125px;
+	background-size:1408px 880px;
+    border-radius:50%;
+	-webkit-clip-path: circle(40% at 50% 50%);
+	 clip-path: circle(40% at 50% 50%);
+	 pointer-events: none;
+	
+}
+
+.dot1{
+	position: fixed;
+	bottom: 50px;
+	right:600px;
+	width:10px;
+	height:10px;
+	background-color:#909090;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+.dot2{
+	position: fixed;
+	bottom: 50px;
+	right:626px;
+	width:10px;
+	height:10px;
+	background-color:#909090;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+.dot3{
+	position: fixed;
+	bottom: 50px;
+	right:655px;
+	width:10px;
+	height:10px;
+	background-color:#ffffff;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+.dot4{
+	position: fixed;
+	bottom: 50px;
+	right:681px;
+	width:10px;
+	height:10px;
+	background-color:#909090;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+
+p{
+	animation: transitionIn 0.75s ease-in-out;
+	animation: transitionOut 0.75s ease-in-out;
+}
+@keyframes transitionIn {
+	from{
+		opacity:0;
+		transform: translateX(150px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes transitionOut {
+	from{
+		opacity:1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(-150px);
+	}
+}
+
