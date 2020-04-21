@@ -1,14 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-    <title>Masking</title>
-    <link rel="stylesheet" href="sceipt.css" type=text/css>
+<meta charset="UTF-8">
+<title>Page 1</title>
+<link href="../../../page 1 new.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-    <h1>Logical illogic</h1>
-    <div class="Container"></div>
 
+<body>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	
+		<div class="pointer"></div>
+	<script type="text/javascript">
+		$(document).mousemove(function(e){
+			$('.pointer').css({left:e.pageX, top:e.pageY})
+		})</script>
+	  
+     <a href="../../../page 2.html">
+        <div class="right"></div>
+         </a>
+    <a href="../../../page5.html">
+        <div class="left"></div>
+        </a>
+    <div class="content">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+        <div class="dot3"></div>
+        <div class="dot4"></div>
+		<div class="dot5"></div>
+	
+	</div>
+    
+    
+	<h5>Move your cursor around
+		the page to explore more</h5>
+	
+
+<div class="bg"></div>
 
 </body>
+
+	
+
+
 </html>
