@@ -2,24 +2,22 @@
 /* CSS Document */
 
 
-h1 {
+header {
 	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
-	font-size: 3em;
+	font-size: 6em;
 	font-weight: normal;
-	position: absolute;
-	margin-left: 307.111px;
-	margin-right: 262px;
-	margin-top: 141.714px;
+	position: relative;
+	margin-left: 14%;
+	margin-top: 270px;
 }
 
-p{
-	
-	font-family: 'PingFang SC Regular';
+h1 {
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-size: 1em;
 	font-weight: normal;
-	font-size: 2em;
-	margin-left: 540px;
-	margin-right: 220px;
-	margin-top: 235px;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 14%;
 }
 
 h2{
@@ -28,9 +26,10 @@ h2{
 	font-size: 8em;
 	position: fixed;
 	left: 160px;
-	top: -200px;
+	top: -88px;
 	color:#DADADA;
 	animation: transition 1s ease-out ;
+	
 	
 }
 @keyframes transition {
@@ -55,10 +54,10 @@ h3{
 	font-size: 8em;
 	position: fixed;
 	right: 160px;
-	bottom: -215px;
+	bottom: -87px;
 	color:#DADADA;
 	transform: rotate(180deg);
-	
+	z-index: -1;
 	animation: transition3 1s ease-out ;
 
 }
@@ -76,7 +75,7 @@ h3{
 		opacity: 1;
 		transform: translateY(0px);
 		transform: rotate(180deg);
-}
+	}
 }
 
 h4{
@@ -89,32 +88,131 @@ h4{
 	color:#909090;
 }
 
-h5{
-	font-family: "Aktiv Grotesk";
-	font-weight: normal;
-	font-size: 1em;
-	position: absolute;
-	left:160px;
-	right:1140px;
-	bottom: 100px;
-	animation: transition5 0.5s ease-out;
-
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
 }
-@keyframes transition5 {
-	0%{
-		opacity:0;
-		transform: translateY(300px);
-	}
-	80%{
-		transform: translateY(-10px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0px);
-	}
+body {
+	-epub-hyphens:auto;
+}
+p.Basic-Paragraph {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:550px;
+	margin-right:0;
+	margin-top:380px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.CharOverride-1 {
+	color:#e5018c;
+	font-family:Shape, sans-serif;
+	font-size:3em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	color:#00af64;
+	font-family:Shape, sans-serif;
+	font-size:3em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-3 {
+	color:#ed1c24;
+	font-family:Shape, sans-serif;
+	font-size:3em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-4 {
+	color:#e46425;
+	font-family:Shape, sans-serif;
+	font-size:3em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-5 {
+	color:#d069a9;
+	font-family:Shape, sans-serif;
+	font-size:3em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-6 {
+	color:#008bce;
+	font-family:Shape, sans-serif;
+	font-size:3em;
+	font-style:normal;
+	font-weight:normal;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
+
+h6{
+	font-family: "Aktiv Grotesk Ex";
+	font-weight: normal;
+	font-size: 0.9em;
+	position: absolute;
+	left: 550px;
+	top: 458px;
+	font-style: italic;
+}
+h7{
+	font-family: "Aktiv Grotesk Ex";
+	font-weight: normal;
+	font-size: 0.9em;
+	position: absolute;
+	left: 550px;
+	top: 460px;
+}
+a{
+	display: inline-block;
 	
 }
+a:link{
+	color: black;
+	
+}
+a:hover{
+	color:#909090;
+}
+a.link:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 420px;
+  border-bottom: 1px solid;
+  margin-top: 30px;
+  margin-left:550px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
 
+a.link:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
 #kern {
   font-kerning: normal;
 }
@@ -147,9 +245,10 @@ h5{
 	border-left: 0px solid #000000;
 	border-right: 3px solid #909090;
 	transform: rotateZ(-135deg);
+	z-index: 1px;
 }
 .rotated1:hover{
-	border-top: 3px solid black; 
+	border-top: 3px solid black;
 	border-right:3px solid black;
 	transition-duration: 0.25s;
 }
@@ -159,10 +258,10 @@ h5{
   transform:translate(-50%, -50%);
   width:300px;
   height:300px;
-    background-image: url("web/img2.png");
+    background-image: url("web/img6.png");
 	background-attachment: fixed;
-	background-position:360px 125px;
-	background-size:1408px 880px;
+	background-position: 420px 208px;
+	background-size:1152px 720px;
     border-radius:50%;
 	-webkit-clip-path: circle(40% at 50% 50%);
 	 clip-path: circle(40% at 50% 50%);
@@ -172,6 +271,7 @@ h5{
 
 .content{
 	position: fixed;
+
 	top: 20px;
 	right: 160px;
 	padding: 0;
@@ -192,7 +292,7 @@ h5{
 	top: 120px;
 	width:10px;
 	height:10px;
-	background-color:#909090;
+	background-color:#ffffff;
 	border-radius:50%;
 	border:1.5px solid #909090;
 }
@@ -219,27 +319,7 @@ h5{
 	top: 0px;
 	width:10px;
 	height:10px;
-	background-color:#ffffff;
+	background-color:#909090;
 	border-radius:50%;
 	border:1.5px solid #909090;
 }
-
-
-p{
-	animation: transitionIn 0.5s ease-out;
-
-}
-@keyframes transitionIn {
-	0%{
-		opacity:0;
-		transform: translateX(300px);
-	}
-	80%{
-		transform: translateX(-10px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(0px);
-	}
-}
-

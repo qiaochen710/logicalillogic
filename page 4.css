@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+
+h6 {
+	font-family:"Blind Contour", sans-serif;
+	font-size:50px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:0.4;
+	letter-spacing: -10px;
+	margin-bottom:0;
+	margin-left:540px;
+	margin-right:220px;
+	margin-top:140px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+	animation: transitionIn 0.5s ease-out;
+
+}
+@keyframes transitionIn {
+	0%{
+		opacity:0;
+		transform: translateX(300px);
+	}
+	80%{
+		transform: translateX(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+	
+}
+
+
+
+
+h1 {
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-size: 3em;
+	font-weight: normal;
+	position: absolute;
+	margin-left: 307.111px;
+	margin-right: 262px;
+	margin-top: 141.714px;
+}
+
+
+
+
+h4{
+	font-family: "Aktiv Grotesk";
+	font-weight: normal;
+	font: 1em;
+	position: absolute;
+	left:160px;
+	right:1100px;
+	bottom: 100px;
+	animation: transition4 0.5s ease-out;
+
+}
+@keyframes transition4 {
+	0%{
+		opacity:0;
+		transform: translateY(300px);
+	}
+	80%{
+		transform: translateY(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	
+}
+
+h5{
+	font-family: "Aktiv Grotesk Ex";
+	font-weight: normal;
+	font-size: 0.9em;
+	position: fixed;
+	left: 160px;
+	bottom: 20px;
+	color:#909090;
+}
+
+#kern {
+  font-kerning: normal;
+}
+
+.rotated{
+	position: absolute;
+	top: 40%;
+	right: 36px;
+	width: 40px;
+	height: 40px;
+	border-top: 3px solid #909090;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	border-right: 3px solid #909090;
+	transform: rotateZ(45deg);
+}
+.rotated:hover{
+	border-top: 3px solid black;
+	border-right:3px solid black;
+	transition-duration: 0.25s;
+}
+.rotated1{
+	position: absolute;
+	top: 40%;
+	left: 36px;
+	width: 40px;
+	height: 40px;
+	border-top: 3px solid #909090;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	border-right: 3px solid #909090;
+	transform: rotateZ(-135deg);
+	z-index: 1px;
+}
+.rotated1:hover{
+	border-top: 3px solid black;
+	border-right:3px solid black;
+	transition-duration: 0.25s;
+}
+.pointer {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform:translate(-50%, -50%);
+  width:300px;
+  height:300px;
+    background-image: url("web/img4.png");
+	background-attachment: fixed;
+	background-position:360px 125px;
+	background-size:1408px 880px;
+    border-radius:50%;
+	-webkit-clip-path: circle(40% at 50% 50%);
+	 clip-path: circle(40% at 50% 50%);
+	 pointer-events: none;
+	
+}
+
+.content{
+	position: fixed;
+
+	top: 20px;
+	right: 160px;
+	padding: 0;
+	margin: 0;
+	transform: rotatez(90deg);
+}
+.dot1{
+	position: relative;
+	top: 160px;
+	width:10px;
+	height:10px;
+	background-color:#ffffff;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+.dot2{
+	position: relative;
+	top: 120px;
+	width:10px;
+	height:10px;
+	background-color:#ffffff;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+.dot3{
+	position: relative;
+	top: 80px;
+	width:10px;
+	height:10px;
+	background-color:#ffffff;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+.dot4{
+	position: relative;
+	top: 40px;
+	width:10px;
+	height:10px;
+	background-color:#909090;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+.dot5{
+	position: relative;
+	top: 0px;
+	width:10px;
+	height:10px;
+	background-color:#ffffff;
+	border-radius:50%;
+	border:1.5px solid #909090;
+}
+
+
+p{
+	animation: transitionIn 0.5s ease-out;
+
+}
+@keyframes transitionIn {
+	0%{
+		opacity:0;
+		transform: translateX(300px);
+	}
+	80%{
+		transform: translateX(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+h2{
+	font-family: "Aktiv Grotesk Ex";
+	font-weight: thick;
+	font-size: 8em;
+	position: fixed;
+	left: 160px;
+	top: -200px;
+	color:#DADADA;
+	animation: transition 1s ease-out ;
+	
+}
+@keyframes transition {
+	0%{
+		opacity:0;
+		transform: translateY(-300px);
+	}
+	80%{
+		transform: translateY(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	
+}
+
+
+h3{
+	font-family: "Aktiv Grotesk Ex";
+	font-weight: thick;
+	font-size: 8em;
+	position: fixed;
+	right: 160px;
+	bottom: -215px;
+	color:#DADADA;
+	transform: rotate(180deg);
+	z-index: -1;
+	animation: transition3 1s ease-out ;
+
+}
+@keyframes transition3 {
+	0%{
+		opacity:0;
+		transform: rotate(180deg) translateY(-300px);
+		
+	}
+	80%{
+		transform: translateY(-10px);
+		transform: rotate(180deg);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+		transform: rotate(180deg);
+	}
+}
+

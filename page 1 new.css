@@ -1,125 +1,68 @@
-@charset "UTF-8";
-/* CSS Document */
-
-
-h1 {
+h1{
 	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
-	font-size: 3em;
+	font-size: 6em;
 	font-weight: normal;
 	position: absolute;
-	margin-left: 307.111px;
-	margin-right: 262px;
-	margin-top: 141.714px;
+	margin-left: 14%;
+	margin-top: 270px;
 }
 
-p{
-	
-	font-family: 'PingFang SC Regular';
+h2 {
+	font-family: "Aktiv Grotesk", "Aktiv Grotesk Black", "Aktiv Grotesk Black Italic", "Aktiv Grotesk Bold", "Aktiv Grotesk Bold Italic", "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Black", "Aktiv Grotesk Ex Black Italic", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Bold Italic", "Aktiv Grotesk Ex Hair", "Aktiv Grotesk Ex Hair Italic", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk Ex Light", "Aktiv Grotesk Ex Light Italic", "Aktiv Grotesk Ex Medium", "Aktiv Grotesk Ex Medium Italic", "Aktiv Grotesk Ex Thin", "Aktiv Grotesk Ex Thin Italic", "Aktiv Grotesk Ex XBold", "Aktiv Grotesk Ex XBold Italic", "Aktiv Grotesk Hairline", "Aktiv Grotesk Hairline Italic", "Aktiv Grotesk Italic", "Aktiv Grotesk Light", "Aktiv Grotesk Light Italic", "Aktiv Grotesk Medium", "Aktiv Grotesk Medium Italic", "Aktiv Grotesk XBold", "Aktiv Grotesk XBold Italic";
+	font-size: 1em;
 	font-weight: normal;
-	font-size: 2em;
-	margin-left: 540px;
-	margin-right: 220px;
-	margin-top: 235px;
-}
-
-h2{
-	font-family: "Aktiv Grotesk Ex";
-	font-weight: thick;
-	font-size: 8em;
-	position: fixed;
-	left: 160px;
-	top: -200px;
-	color:#DADADA;
-	animation: transition 1s ease-out ;
-	
-}
-@keyframes transition {
-	0%{
-		opacity:0;
-		transform: translateY(-300px);
-	}
-	80%{
-		transform: translateY(10px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0px);
-	}
-	
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 14.4%;
 }
 
 
-h3{
-	font-family: "Aktiv Grotesk Ex";
-	font-weight: thick;
-	font-size: 8em;
-	position: fixed;
-	right: 160px;
-	bottom: -215px;
-	color:#DADADA;
-	transform: rotate(180deg);
-	
-	animation: transition3 1s ease-out ;
 
-}
-@keyframes transition3 {
-	0%{
-		opacity:0;
-		transform: rotate(180deg) translateY(-300px);
-		
-	}
-	80%{
-		transform: translateY(-10px);
-		transform: rotate(180deg);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0px);
-		transform: rotate(180deg);
-}
-}
 
-h4{
+
+h5{
 	font-family: "Aktiv Grotesk Ex";
 	font-weight: normal;
 	font-size: 0.9em;
 	position: fixed;
 	left: 160px;
 	bottom: 20px;
-	color:#909090;
-}
-
-h5{
-	font-family: "Aktiv Grotesk";
-	font-weight: normal;
-	font-size: 1em;
-	position: absolute;
-	left:160px;
-	right:1140px;
-	bottom: 100px;
-	animation: transition5 0.5s ease-out;
-
-}
+	right: 76%;
+	color: #909090;
+	animation: transition5 4s ease-out ;}
 @keyframes transition5 {
 	0%{
 		opacity:0;
-		transform: translateY(300px);
+		transform: translateY(-1000px);
+		font-size: 7em ;
+		line-height: 0.9;
+		right: 0%;
 	}
-	80%{
-		transform: translateY(-10px);
+	10%,95%{opacity:1;
+		transform: translateY(-270px);
+		font-size: 7em;
+		font-weight:thick;
+		line-height: 0.9;
+		right: 0%;
 	}
 	100% {
 		opacity: 1;
 		transform: translateY(0px);
+		font-weight:normal;
+		line-height: auto;
+		right: 76%;
 	}
 	
 }
+
+
+
 
 #kern {
   font-kerning: normal;
 }
 
-.rotated{
+.right{
 	position: absolute;
 	top: 40%;
 	right: 36px;
@@ -130,15 +73,16 @@ h5{
 	border-left: 0px solid #000000;
 	border-right: 3px solid #909090;
 	transform: rotateZ(45deg);
+	
 }
-.rotated:hover{
+.right:hover{
 	border-top: 3px solid black;
 	border-right:3px solid black;
 	transition-duration: 0.25s;
 }
-.rotated1{
+.left{
 	position: absolute;
-	top: 40%;
+	top: 40%; 
 	left: 36px;
 	width: 40px;
 	height: 40px;
@@ -147,33 +91,50 @@ h5{
 	border-left: 0px solid #000000;
 	border-right: 3px solid #909090;
 	transform: rotateZ(-135deg);
+	
 }
-.rotated1:hover{
+.left:hover{
 	border-top: 3px solid black; 
 	border-right:3px solid black;
 	transition-duration: 0.25s;
 }
 .pointer {
-  position: absolute;
-  top: 50%; left: 50%;
-  transform:translate(-50%, -50%);
-  width:300px;
-  height:300px;
-    background-image: url("web/img2.png");
+	position: absolute;
+	top: 283px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 300px;
+	background-image: url("web/img1.png");
 	background-attachment: fixed;
-	background-position:360px 125px;
-	background-size:1408px 880px;
-    border-radius:50%;
+	background-position: 361px 125px;
+	background-size: 1408px 880px;
+	border-radius: 50%;
 	-webkit-clip-path: circle(40% at 50% 50%);
-	 clip-path: circle(40% at 50% 50%);
-	 pointer-events: none;
+	clip-path: circle(40% at 50% 50%);
+	pointer-events: none;	
+}
+
+.bg {
+  background-image:url("web/png1.png");
+	background-size: 117%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 315px;
+	top: 165px;
+	width:1200px;
+	height: 500px;
+	
 	
 }
 
 .content{
 	position: fixed;
+
 	top: 20px;
 	right: 160px;
+
 	padding: 0;
 	margin: 0;
 	transform: rotatez(90deg);
@@ -183,7 +144,7 @@ h5{
 	top: 160px;
 	width:10px;
 	height:10px;
-	background-color:#ffffff;
+	background-color:#909090;
 	border-radius:50%;
 	border:1.5px solid #909090;
 }
@@ -192,7 +153,7 @@ h5{
 	top: 120px;
 	width:10px;
 	height:10px;
-	background-color:#909090;
+	background-color:#ffffff;
 	border-radius:50%;
 	border:1.5px solid #909090;
 }
@@ -214,6 +175,7 @@ h5{
 	border-radius:50%;
 	border:1.5px solid #909090;
 }
+
 .dot5{
 	position: relative;
 	top: 0px;
@@ -225,21 +187,28 @@ h5{
 }
 
 
-p{
-	animation: transitionIn 0.5s ease-out;
+.bg{
+	animation: transitionIn 4.3s ease-out ;
 
 }
 @keyframes transitionIn {
 	0%{
 		opacity:0;
-		transform: translateX(300px);
 	}
-	80%{
-		transform: translateX(-10px);
+	86%{
+		opacity:0;
+		transform: translateY(-100px);
+	}
+	93%{
+		transform: translateY(50px);
 	}
 	100% {
 		opacity: 1;
-		transform: translateX(0px);
+		transform: translateY(20px);
 	}
 }
+
+
+
+
 
