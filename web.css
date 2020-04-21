@@ -21,7 +21,7 @@ h1 {
 }
 
 h2{
-	font-family: “"Aktiv Grotesk Ex", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk", "Aktiv Grotesk Bold";
+	font-family: "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk", "Aktiv Grotesk Bold";
 	font-weight: thick;
 	font-size: 8em;
 	position: fixed;
@@ -49,7 +49,7 @@ h2{
 
 
 h3{
-	font-family: "Aktiv Grotesk Ex";
+	font-family: "Aktiv Grotesk Ex", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk", "Aktiv Grotesk Bold";
 	font-weight: thick;
 	font-size: 8em;
 	position: fixed;
