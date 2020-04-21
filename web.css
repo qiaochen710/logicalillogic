@@ -21,7 +21,7 @@ h1 {
 }
 
 h2{
-	font-family: "Aktiv Grotesk Ex";
+	font-family: “"Aktiv Grotesk Ex", "Aktiv Grotesk Ex Bold", "Aktiv Grotesk Ex Italic", "Aktiv Grotesk", "Aktiv Grotesk Bold";
 	font-weight: thick;
 	font-size: 8em;
 	position: fixed;
@@ -258,7 +258,7 @@ a.link:hover:after {
   transform:translate(-50%, -50%);
   width:300px;
   height:300px;
-    background-image: url("web/img6.png");
+    background-image: url("img6.png");
 	background-attachment: fixed;
 	background-position: 420px 208px;
 	background-size:1152px 720px;
@@ -323,3 +323,57 @@ a.link:hover:after {
 	border-radius:50%;
 	border:1.5px solid #909090;
 }
+
+h6 {
+	animation: transitionIn 0.5s ease-out;
+
+}
+@keyframes transitionIn {
+	0%{
+		opacity:0;
+		transform: translateX(300px);
+	}
+	80%{
+		transform: translateX(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+h7 {
+	animation: transitionIn 0.5s ease-out;
+
+}
+@keyframes transitionIn {
+	0%{
+		opacity:0;
+		transform: translateX(300px);
+	}
+	80%{
+		transform: translateX(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+p {
+	animation: transitionIn 0.5s ease-out;
+
+}
+@keyframes transitionIn {
+	0%{
+		opacity:0;
+		transform: translateX(300px);
+	}
+	80%{
+		transform: translateX(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+
